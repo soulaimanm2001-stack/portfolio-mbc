@@ -8,33 +8,33 @@ type IconProps = {
 
 const strengths = [
   {
-    title: "Sécurité",
-    text: "Une attention constante aux procédures, aux voyageurs et à l'environnement de circulation.",
+    title: "Culture de la sécurité",
+    text: "Habitué à évoluer dans un environnement ferroviaire alimenté en 750 V courant continu, où le strict respect des procédures de sécurité et des consignations est indispensable.",
     icon: ShieldIcon
   },
   {
-    title: "Ponctualité",
-    text: "Une culture de la régularité et du respect des horaires, essentielle au service public.",
+    title: "Rigueur et respect des procédures",
+    text: "Une grande rigueur dans l'application des protocoles d'exploitation et des règles de sécurité afin de garantir la protection des personnes et des installations.",
     icon: ClockIcon
   },
   {
-    title: "Relation clientèle",
-    text: "Un contact calme, professionnel et bienveillant avec les voyageurs au quotidien.",
+    title: "Réactivité face aux incidents",
+    text: "Une capacité à analyser rapidement les situations, à appliquer les procédures adaptées et à intervenir avec sang-froid en cas d'aléa d'exploitation.",
     icon: UsersIcon
   },
   {
-    title: "Gestion des situations imprévues",
-    text: "Des réflexes opérationnels construits dans un environnement exigeant et sensible.",
+    title: "Esprit d'équipe",
+    text: "Une collaboration quotidienne avec les équipes de maintenance, de régulation et d'exploitation afin d'assurer la continuité du service.",
     icon: AlertIcon
   },
   {
-    title: "Esprit d'équipe",
-    text: "Une capacité à communiquer, coopérer et contribuer à la fluidité du réseau.",
+    title: "Sens des responsabilités",
+    text: "Une expérience acquise dans un environnement technique exigeant, où chaque décision a un impact direct sur la sécurité des voyageurs et du réseau.",
     icon: TeamIcon
   },
   {
     title: "Motivation",
-    text: "L'envie claire de m'investir durablement au sein des MBC et de progresser dans le métier.",
+    text: "Désireux de mettre mon expérience du milieu ferroviaire au service de la SNCF, de développer mes compétences en électricité basse tension et de construire une carrière durable au sein de l'entreprise.",
     icon: SparkIcon
   }
 ];
@@ -48,20 +48,20 @@ const photoSources = [
 
 const reasons = [
   {
-    title: "Expérience opérationnelle",
-    text: "Mon parcours à la RTM m'a permis d'évoluer au contact direct des réalités du transport public, avec ses exigences de sécurité, de précision et de continuité de service."
+    title: "Environnement ferroviaire",
+    text: "Mon expérience à la RTM m'a permis d'évoluer au sein d'un réseau ferroviaire exigeant, où la sécurité, la rigueur et le respect des procédures sont indispensables au bon fonctionnement des installations et de l'exploitation."
   },
   {
-    title: "Gestion des incidents",
-    text: "La conduite du métro de Marseille pendant la transition vers l'automatisation m'a appris à garder une posture fiable, posée et méthodique face aux aléas."
+    title: "Culture de la sécurité",
+    text: "En tant que conducteur de métro évoluant quotidiennement au contact d'installations alimentées en 750 V courant continu, j'ai développé une véritable culture de la sécurité ainsi qu'un profond respect des règles et des procédures techniques."
   },
   {
-    title: "Service aux voyageurs",
-    text: "Je place l'accueil, l'information et la confiance des usagers au coeur de ma manière de travailler, même dans les moments de forte affluence."
+    title: "Rigueur et réactivité",
+    text: "La conduite du métro durant la transition vers l'automatisation m'a appris à analyser rapidement les situations, à appliquer les procédures adaptées et à garder mon sang-froid dans un environnement technique exigeant."
   },
   {
     title: "Engagement durable",
-    text: "Je souhaite rejoindre les MBC avec sérieux, disponibilité et l'ambition de construire une collaboration stable au service du réseau."
+    text: "Je souhaite rejoindre la SNCF afin de mettre à profit mon expérience du milieu ferroviaire, développer mes compétences en électricité basse tension et construire une carrière durable au sein de votre entreprise."
   }
 ];
 
@@ -79,7 +79,7 @@ export default function Home() {
                 SM
               </span>
               <span className="hidden text-sm font-semibold text-mbc-navy sm:block">
-                Portfolio candidature MBC
+                Portfolio candidature SNCF
               </span>
             </div>
             <a
@@ -100,7 +100,7 @@ export default function Home() {
                 Soulaiman Messaya
               </h1>
               <p className="mt-7 max-w-2xl text-xl font-medium leading-8 text-slate-600 sm:text-2xl">
-                Candidature au poste d&apos;Aspirant Conducteur de bus MBC
+                Candidature au poste d&apos;électricien basse tension à la SNCF. 
               </p>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                 <button
@@ -111,7 +111,7 @@ export default function Home() {
                   Me contacter
                 </button>
                 <a
-                  href="/Soulaiman_Messaya_CV_MBC.pdf"
+                  href="/Soulaiman_Messaya_CV_SNCF.pdf"
                   download
                   className="inline-flex items-center justify-center gap-3 rounded-full border border-mbc-blue/20 bg-white px-7 py-4 text-base font-extrabold text-mbc-blue shadow-soft transition duration-300 hover:-translate-y-1 hover:border-mbc-green/40 hover:bg-mbc-green/10"
                 >
@@ -155,14 +155,14 @@ export default function Home() {
               À propos de moi
             </p>
             <h2 className="mt-4 text-4xl font-black text-mbc-navy sm:text-5xl">
-              Un profil terrain, sérieux et orienté voyageurs.
+              Un profil de terrain, rigoureux et orienté sécurité.
             </h2>
           </div>
           <div className="route-line space-y-6">
             {[
-              "Mon parcours à la RTM m'a donné une vision concrète du fonctionnement d'un réseau de transport public et de l'importance d'une conduite responsable.",
-              "J'ai conduit le métro de Marseille durant la phase de transition vers l'automatisation, dans un contexte où la vigilance, la rigueur et la capacité d'adaptation étaient essentielles.",
-              "Je cultive un sens fort des responsabilités, une culture sécurité solide et un goût sincère du service public, avec la volonté de représenter les MBC avec professionnalisme."
+              "Mon expérience au sein de la RTM m'a permis d'acquérir une connaissance concrète de l'environnement ferroviaire et des exigences liées à l'exploitation d'un réseau de transport. Évoluer quotidiennement au contact d'installations alimentées en 750 V courant continu m'a sensibilisé à l'importance du respect des procédures et de la sécurité.",
+              "J'ai exercé en tant que conducteur de métro à Marseille durant la phase de transition vers l'automatisation du réseau, dans un contexte où la vigilance, la réactivité et la rigueur étaient indispensables pour garantir la sécurité des voyageurs et la continuité de l'exploitation.",
+              "Aujourd'hui, je souhaite mettre cette expérience au service de la SNCF en intégrant un poste d'électricien basse tension. Sérieux, motivé et désireux d'apprendre, je souhaite développer mes compétences techniques, contribuer à la fiabilité des installations ferroviaires et construire une carrière durable au sein de votre entreprise."
             ].map((item) => (
               <div
                 key={item}
@@ -181,7 +181,7 @@ export default function Home() {
           <div className="mb-10 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.22em] text-mbc-green">
-                Ce que je peux apporter aux MBC
+                Ce que je peux apporter à la SNCF
               </p>
               <h2 className="mt-4 text-4xl font-black text-mbc-navy sm:text-5xl">
                 Des qualités utiles dès le premier service.
@@ -262,9 +262,7 @@ export default function Home() {
               Merci pour le temps consacré à ma candidature.
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Je serais heureux d'échanger avec vous afin de présenter plus en détail
-              mon parcours, ma motivation et la manière dont je peux contribuer à la
-              qualité du service offert aux voyageurs des MBC.
+              Je serais heureux d'échanger avec vous afin de vous présenter plus en détail mon parcours, ma motivation et la manière dont je pourrais contribuer à la fiabilité, à la sécurité et à la maintenance des installations électriques de la SNCF.
             </p>
             <button
               onClick={() => setIsContactOpen(true)}

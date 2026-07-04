@@ -2,3 +2,5 @@ node_modules
 .next
 outputs
 work
+.vercel
+.env*
